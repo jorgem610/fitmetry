@@ -5,9 +5,15 @@ import { MacrosCalculator } from "@/components/macros-calculator"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Calculadora de Macros - FitCalc",
+  title: "Calculadora de Macros - FITMETRIC",
   description:
-    "Distribuye tus macronutrientes de forma optima segun tu objetivo: perdida de grasa, mantenimiento o ganancia muscular.",
+    "Calcula gratis tu distribución de macronutrientes. Proteínas, carbohidratos y grasas según tu objetivo: pérdida de grasa, mantenimiento o ganancia muscular.",
+  keywords: "calculadora macros, macronutrientes, proteinas carbohidratos grasas, distribucion macros fitness",
+  openGraph: {
+    title: "Calculadora de Macros - FITMETRIC",
+    description: "Calcula gratis tu distribución de macronutrientes según tu objetivo fitness.",
+    url: "https://fitmetric-app.vercel.app/macros",
+  },
 }
 
 export default function MacrosPage() {
