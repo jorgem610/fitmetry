@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: 'FITMETRIC - Calculadoras de Fitness',
   description:
     'Herramientas de fitness gratuitas: calculadora de calorías, macros y 1RM. Optimiza tu entrenamiento con datos precisos.',
+  verification: {
+    google: 'Eo0eX4udXT5JLgWn-k8Ls9Baswo9GGxUt06fVPzWovM',
+  },
 }
 
 export const viewport: Viewport = {
